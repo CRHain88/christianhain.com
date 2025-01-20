@@ -1,0 +1,57 @@
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+
+  <main class="page__content">
+    <div class="page-title">
+      <h1 class="page-title__h1">/Uses</h1>
+    </div>
+
+    <p>Inspired by <a rel="nofollow" href="https://wesbos.com/" title="Wes Bos' Website" target="_blank">Wes Bos</a>, this is a <a href="https://uses.tech/" target="_blank"><code>/uses</code> Page</a>, a non-exhausting list of the tools and programs I use to capture, create, and develop.</p>
+
+    {% for category in uses %}
+      <div class="grid">
+        <h2 class="grid__heading">{{ category.category }}</h2>
+        {% for subcategory in category.items %}
+          <div class="grid__subgrid">
+            <h3 class="grid__subgrid-heading">{{ subcategory.category }}</h3>
+            <div class="grid__subgrid-items">
+              {% for item in subcategory.items %}
+                <a rel="noollow" href="{{ item.url }}" target="_blank" class="item item--{{ category.category | lower }}">
+                  <div class="item__image-wrapper">
+                    <img
+                      src="https://assets.christianhain.com/images/pages/uses/{{ item.image }}"
+                      alt="{{ item.productName }} product image or icon"
+                      class="item__image"
+                    >
+                  </div>
+                  <p>{{ item.productName }}</p>
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </main>
+
+{% endblock %}
+
+
+| ------------------------------------------------ |
+| Heading  1                                       |
+| ------------------------------------------------ |
+| SubHeading 1 | item 1 | item 2 | item 3 | item 4 |
+|              | item 5 | item 6 |                 |
+| ------------------------------------------------ |
+| SubHeading 2 | item 1 | item 2 | item 3 | item 4 |
+|              | item 5 | item 6 |                 |
+| ------------------------------------------------ |
+| Heading  2                                       |
+| ------------------------------------------------ |
+| SubHeading 3 | item 1 | item 2 | item 3 | item 4 |
+|              | item 5 | item 6 |                 |
+| ------------------------------------------------ |
+| SubHeading 4 | item 1 | item 2 | item 3 | item 4 |
+|              | item 5 | item 6 |                 |
+| ------------------------------------------------ |
