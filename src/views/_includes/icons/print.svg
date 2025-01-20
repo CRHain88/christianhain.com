@@ -1,11 +1,9 @@
-<svg
-  width="20"
-  xmlns="http://www.w3.org/2000/svg"
-  height="20"
-  viewBox="0 0 512 512"
->
-  <path
-    d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zM432 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"
-    style="fill:currentColor;"
-  />
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<!-- https://www.svgrepo.com/collection/scarlab-oval-line-icons -->
+
+<svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 7V5C6 3.89543 6.89543 3 8 3H16C17.1046 3 18 3.89543 18 5V7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <path d="M7 17V17C5.11438 17 4.17157 17 3.58579 16.4142C3 15.8284 3 14.8856 3 13V11C3 9.11438 3 8.17157 3.58579 7.58579C4.17157 7 5.11438 7 7 7H17C18.8856 7 19.8284 7 20.4142 7.58579C21 8.17157 21 9.11438 21 11V13C21 14.8856 21 15.8284 20.4142 16.4142C19.8284 17 18.8856 17 17 17V17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M7 17C7 15.1144 7 14.1716 7.58579 13.5858C8.17157 13 9.11438 13 11 13H13C14.8856 13 15.8284 13 16.4142 13.5858C17 14.1716 17 15.1144 17 17C17 18.8856 17 19.8284 16.4142 20.4142C15.8284 21 14.8856 21 13 21H11C9.11438 21 8.17157 21 7.58579 20.4142C7 19.8284 7 18.8856 7 17Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
 </svg>
